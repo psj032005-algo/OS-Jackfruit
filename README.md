@@ -31,16 +31,24 @@ This project implements a lightweight container runtime in C with a supervisor p
 ```bash
 make clean
 make
+```
 
 Run Supervisor
 
 commands
+```
 sudo ./engine supervisor ~/rootfs-base
+```
 in terminal 1
+```
 sudo ./engine run alpha ~/rootfs-alpha /bin/sh
 sudo ./engine run beta ~/rootfs-beta /bin/sh
+```
 in terminal 1
+```
 sudo ./engine ps
-<img width="1156" height="285" alt="WhatsApp Image 2026-04-18 at 6 38 29 PM" src="https://github.com/user-attachments/assets/40d833a4-0408-49fa-8f9e-da40774b95d2" />
+```
+<img width="1156" height="285" alt="WhatsApp Image 2026-04-18 at 6 38 29 PM" src="https://github.com/user-attachments/assets/72fe3f7c-ba3e-42fd-8f9f-360364ecdf8a" />
+
 
 
