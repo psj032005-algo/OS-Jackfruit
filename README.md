@@ -76,6 +76,7 @@ commands
 ```
 sudo pkill engine
 ```
+```
 sudo rm -f /tmp/mini_runtime.sock
 ```
 ```
