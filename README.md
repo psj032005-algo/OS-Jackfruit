@@ -103,7 +103,7 @@ make clean
 make
 ```
 ```
-sudo rmmod monitor   # ignore error if not loaded
+sudo rmmod monitor   
 sudo insmod monitor.ko
 ```
 ```
