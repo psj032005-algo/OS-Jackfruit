@@ -93,8 +93,26 @@ sudo ./engine ps
 <img width="1219" height="350" alt="5" src="https://github.com/user-attachments/assets/8747f92d-a188-4dbb-bbb5-76ae7d1ef858" />
 commands
 ```
+make clean
+make
+```
+```
+sudo rmmod monitor   # ignore error if not loaded
+sudo insmod monitor.ko
+```
+```
+ls /dev | grep monitor
+```
+```
 sudo ./engine supervisor ~/rootfs-base
+```
+```
+cp memory_hog ~/rootfs-alpha/
+```
+```
 sudo ./engine run alpha ~/rootfs-alpha ./memory_hog
+```
+```
 sudo dmesg | tail
 ```
 📸 Screenshot 6: Kernel enforcing HARD memory limit (process terminated)
