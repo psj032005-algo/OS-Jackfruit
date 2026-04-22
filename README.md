@@ -148,8 +148,12 @@ top -o %CPU
 
 ```
 sudo pkill -9 engine
+```
+```
 pkill cpu_hog
 pkill io_pulse
+```
+```
 sudo rm -f /tmp/mini_runtime.sock
 ps aux | grep engine
 ```
