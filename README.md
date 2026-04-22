@@ -135,8 +135,12 @@ sudo dmesg | tail
 
 ```
 gcc -O2 -o cpu_hog cpu_hog.c
+```
+```
 ./cpu_hog 100 &
 ./io_pulse &
+```
+```
 top -o %CPU
 ```
 📸 Screenshot 8: Clean teardown (no running processes or zombies)
