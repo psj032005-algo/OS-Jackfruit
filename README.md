@@ -75,8 +75,13 @@ sudo ./engine ps
 commands
 ```
 sudo pkill engine
+```
 sudo rm -f /tmp/mini_runtime.sock
+```
+```
 sudo ./engine supervisor ~/rootfs-base
+```
+```
 sudo ./engine run alpha ~/rootfs-alpha /bin/sh
 sudo ./engine logs alpha
 ```
